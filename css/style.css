@@ -7,6 +7,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ececec;
 }
 
 p {
@@ -90,7 +91,28 @@ img {
   border-radius: 5px;
 }
 
+.sub_intern {
+  font-size: 1.5em;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.sub_intern::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
 /* Header */
+
 .header { 
   position: fixed;
   top: 0;
@@ -138,7 +160,12 @@ img {
   color: #f0b27f;
 }
 
+.header_menu ul li a.menu_active {
+  color: #f0b27f;
+}
+
 /* Intro */
+
 .introduction {
   width: 100%;
   height: 500px;
@@ -235,6 +262,35 @@ img {
   margin-bottom: 20px;
 }
 
+/* Intro About */
+
+.intro_about {
+  width: 100%;
+  margin-top: 68px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #ececec;
+}
+
+.intro_about h1 {
+  font-size: 2.5em;
+  color: #ececec;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro_about h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ececec;
+  margin: 6px auto 10px auto;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+
 /* Coffee shop's */
 
 .shops {
@@ -328,6 +384,7 @@ img {
 
 .company_list {
   padding-top: 40px;
+  overflow: auto;
 }
 
 .company_list li {
@@ -375,7 +432,7 @@ img {
   max-width: 400px;
 }
 
-.break .quote p::before, .quote p::after {
+.break .quote p::before, .break .quote p::after {
   content: "";
   display: block;
   width: 60px;
@@ -429,6 +486,7 @@ img {
 
 .footer_social ul li {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .footer_social ul li a {
@@ -443,4 +501,10 @@ img {
 
 .footer_social ul li a:hover {
   border: 3px solid #ececec;
+}
+
+.copy {
+  width: 100%;
+  background-color: #f0b27f;
+  padding: 20px 0;
 }

@@ -1,0 +1,38 @@
+.intern_about {
+    background: url("/img/bg-about.jpg") no-repeat center;
+}
+
+.about_img{
+    background: url("/img/bg-coffee.jpg") no-repeat center;
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+}
+
+.mission_about {
+    padding-top: 50px ;
+}
+
+.mission_about p {
+    font-size: 1.1em;
+    line-height: 25px;
+    margin-bottom: 2em;
+    padding-right: 60px;
+}
+
+.mission_about ul {
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.mission_about ul li {
+    font-family: monospace;
+    line-height: 25px;
+}
+
+
