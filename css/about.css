@@ -35,4 +35,22 @@
     line-height: 25px;
 }
 
+.coffee1 {
+    background: url("/img/black-coffee.jpg") no-repeat center;
+    height: 300px;
+    text-align: center;
+    color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+}
+
+.coffee2 {
+    background: url("/img/black-coffee2.jpg") no-repeat center;
+    height: 300px;
+    text-align: center;
+    color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+}
+
 
