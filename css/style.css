@@ -24,11 +24,15 @@ img {
 }
 
 .grid-8 {
-  width: 440px;
+  width: 460px;
 }
 
 .grid-11 {
   width: 500px;
+}
+
+.grid-5 {
+  width: 420px;
 }
 
 .btn {

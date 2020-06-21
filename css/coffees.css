@@ -2,3 +2,104 @@
     background: url("/img/bg-coffees.jpg") no-repeat center;
     background-size: cover;
 }
+
+.coffee1 {
+    background: url("/img/black-coffee.jpg") no-repeat center;
+    height: 300px;
+    text-align: center;
+    color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+}
+
+.coffee2 {
+    background: url("/img/black-coffee2.jpg") no-repeat center;
+    height: 300px;
+    text-align: center;
+    color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+}
+
+.coffee2_text {
+    height: 300px;
+    font-family: monospace;
+    background-color: #924b4b;
+    border: 2px solid #924b4b;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.coffee2_text p {
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 30px 40px;
+    color: #ececec;
+}
+
+.coffee2_text ul {
+    padding: 0;
+}
+
+.coffee2_text ul li {
+    line-height: 50px;
+    background-color: #f0b27f;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    float: left;
+    width: 227px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #f0b27f;
+    border-radius: 5px;
+}
+
+.coffee2_text ul li:nth-child(1), .coffee2_text ul li:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+.coffee2_text ul li:nth-child(even) {
+    margin-left: 2px;
+}
+
+.coffees_item {
+    padding: 70px 0; 
+}
+
+.coffees_item img {
+    margin: 0 auto;
+}
+
+.coffees_item h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    margin-top: 130px;
+    color: #ececec;
+}
+
+.coffees_item h2::after, .coffees_item h2::before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ececec;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.blackcoffee_icon {
+    background-color: #924b4b;
+    height: 300px;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.blackcoffee_icon img {
+   height: 200px; 
+   margin-top: 45px;
+}
