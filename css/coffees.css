@@ -3,29 +3,43 @@
     background-size: cover;
 }
 
-.coffee1 {
-    background: url("/img/black-coffee.jpg") no-repeat center;
+.coffee {
     height: 300px;
     text-align: center;
     color: #ececec;
     border: 2px solid #ececec;
-    border-radius: 5px;
+    border-radius: 5px;   
+}
+
+.coffee1 {
+    background: url("/img/black-coffee.jpg") no-repeat center;
 }
 
 .coffee2 {
     background: url("/img/black-coffee2.jpg") no-repeat center;
-    height: 300px;
-    text-align: center;
-    color: #ececec;
-    border: 2px solid #ececec;
-    border-radius: 5px;
+}
+
+.coffee3 {
+    background: url("/img/coffeelatte-img.jpg") no-repeat center;
+}
+
+.coffee4 {
+    background: url("/img/coffeelatte-img2.jpg") no-repeat center;
+}
+
+.coffee5 {
+    background: url("/img/frappe-img1.jpg") no-repeat center;
+}
+
+.coffee6 {
+    background: url("/img/frappe-img2.jpg") no-repeat center;
 }
 
 .coffee2_text {
     height: 300px;
     font-family: monospace;
     background-color: #924b4b;
-    border: 2px solid #924b4b;
+    border: 2px solid #ececec;
     border-radius: 5px;
     font-size: 1.2em;
 }
@@ -47,11 +61,17 @@
     text-transform: uppercase;
     letter-spacing: .1em;
     float: left;
-    width: 227px;
+    width: 220px;
     height: 50px;
     text-align: center;
     border: 2px solid #f0b27f;
     border-radius: 5px;
+    margin-left: 6px;
+}
+
+.coffee2_text ul li:hover{
+    background-color: #ececec;
+    border: 2px solid #ececec;
 }
 
 .coffee2_text ul li:nth-child(1), .coffee2_text ul li:nth-child(2) {
