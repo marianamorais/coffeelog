@@ -1,0 +1,17 @@
+.intern_coffeeshop {
+    background: url("/img/bg-coffeeshop.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.quote_coffeeshop {
+    padding: 50px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote_coffeeshop p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 25px;
+    font-style: italic;
+}
