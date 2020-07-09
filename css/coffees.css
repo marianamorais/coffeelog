@@ -180,6 +180,7 @@
 .some_feedbacks h3 {
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .some_feedbacks ul {
