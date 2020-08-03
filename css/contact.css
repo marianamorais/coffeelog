@@ -52,26 +52,44 @@
     background-color: #f0b27f;
 }
 
-.data {
+.data_contact {
     margin: 8px 0;
 }
 
-.data h3 {
+.data_contact h3 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 auto;
 }
 
-.data ul {
+.data_contact ul {
     padding: 0 40px 0 0;
 }
 
-.data li {
+.data_contact li {
     padding: 10px 15px;
 }
 
-.data ul li:nth-child(odd) {
+.data_contact ul li:nth-child(odd) {
     background-color: #924b4b;
     border: 4px solid #924b4b;
     border-radius: 5px;
+}
+
+.data_contact ul li {
+    display: inline-block;
+}
+
+.data_contact ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    align-items: center;
+    border: 3px solid #f0b27f;
+    border-radius: 5px;
+}
+
+.data_contact ul li a:hover {
+    border: 3px solid #000;
 }
