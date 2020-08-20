@@ -93,3 +93,15 @@
 .data_contact ul li a:hover {
     border: 3px solid #000;
 }
+
+/* Map */
+#map {
+    margin: 0 auto;
+    height: 500px;
+    background: #f0b27f;
+    z-index: -2;
+    margin-bottom: 50px;
+
+    border: 3px solid #924b4b;
+    border-radius: 8px;
+}
