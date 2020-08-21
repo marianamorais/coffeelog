@@ -17,13 +17,12 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .grid-1-3 {
   width: 275px;
 }
-
-
 
 .grid-11 {
   width: 500px;
@@ -34,10 +33,10 @@ img {
 }
 
 .btn {
-  border: 3px solid #924b4b;
+  border: 3px solid #f0b27f;
   border-radius: 5px;
   padding: 10px 20px;
-  color: #924b4b;
+  color: #f0b27f;
   font-size: 1em;
   line-height: 20px;
   text-transform: uppercase;
@@ -46,8 +45,8 @@ img {
 }
 
 .btn:hover {
-  color: #f0b27f;
-  border-color: #f0b27f;
+  color: #ececec;
+  border-color: #ececec;
 }
 
 .btn2 {
@@ -65,6 +64,28 @@ img {
 .btn2:hover {
   color: #f0b27f;
   border-color: #f0b27f;
+}
+
+.btn3:hover{
+  color: #924b4b;
+  border-color: #924b4b;
+} 
+
+.btn4 {
+  border: 3px solid #ececec;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #ececec;
+  font-size: 1em;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn4:hover {
+  color: #924b4b;
+  border-color: #924b4b;
 }
 
 .sub {
@@ -396,17 +417,6 @@ img {
   line-height: 25px;
   text-transform: uppercase;
   letter-spacing: .1em;
-}
-
-.company_list li h3::after  {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background-color: #000000;
-  margin: 14px auto 10px auto;
-  border: 1px solid #000000;
-  border-radius: 5px;
 }
 
 /* Break */

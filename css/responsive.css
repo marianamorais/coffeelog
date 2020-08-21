@@ -1,0 +1,66 @@
+
+/* Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .company::after{
+    right: 70px;
+  }
+
+  .company_list li {
+    padding: 0 10px ;
+  }
+  
+  
+} 
+
+/* Smartphones */
+@media only screen and (max-width: 787px) {
+  .header {
+    position: relative;
+  }
+
+  .header img {
+    margin: 0;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul {
+    padding: 0;
+  }
+
+  .header_menu ul li {
+    margin: 0;
+  }
+
+  .header_menu ul li a {
+    border: 3px solid #ececec;
+    border-radius: 4px;
+    width: 148px;
+    display: block;
+    float: left;
+    padding: 10px 10px;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #f0b27f;
+  }
+
+  .store_1, .store_2, .store_3 {
+    width: 253px;
+    height: 287px;
+  }
+
+  .company::after{
+    right: -140px;
+  }
+
+  .company_list li {
+    padding: 0 10px ;
+  }
+
+  .grid-1-3{
+    width: 218px;
+  }
+}
