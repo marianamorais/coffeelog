@@ -4,7 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coffeelog</title>
+  <title>Coffeelog - Coffee and code!</title>
+  <meta name="description" content="Buy coffee and get free programming courses!">
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Coffeelog - Coffee and code!"/>
+  <meta property="og:description" content="Buy coffee and get free programming courses!"/>
+  <meta property="og:url" content="https://coffeelog.netlify.app/"/>
+  <meta property="og:image" content="./img/img-intro.jpg"/>
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#924b4b">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/manifest.json">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
@@ -13,12 +40,19 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
     rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  
 </head>
 
 <body>
+  <script src="./scripts/scripts.js"></script>
+
   <header class="header">
     <div class="container">
-      <a href="index.html" class="logo grid-4"><img src="/img/logo.svg" alt="Logo Coffeelog">Coffeelog</a>
+      <a href="index.html" class="logo grid-4"><img src="/img/logo.svg" alt="Coffeelog">Coffeelog</a>
       <nav class="grid-12 header_menu">
         <ul>
           <li><a href="about.html">About</a></li>
@@ -32,15 +66,15 @@
 
   <section class="introduction">
     <div class="container">
-      <h1>Coffee and code</h1>
-      <blockquote class="quote">
+      <h1 class="animate__animated animate__fadeInDown">Coffee and code</h1>
+      <blockquote class="quote animate__animated animate__fadeInDown animate__delay-1s">
         <p>"We brouth together the best brazilians coffee experts to create something unique"</p>
       </blockquote>
-      <a href="products.html" class="btn">Know more</a>
+      <a href="products.html" class="btn animate__animated animate__fadeInDown animate__delay-1s">Know more</a>
     </div>
   </section>
 
-  <section class="cafes container">
+  <section class="cafes container animate__animated animate__fadeIn animate__delay-1s">
     <h1 class="sub">Coffee's</h1>
     <ul class="coffee_list">
 
@@ -69,13 +103,13 @@
       </li>
     </ul>
 
-    <div class="call">
+    <div class="call cafes container animate__animated animate__fadeIn animate__delay-1s">
       <p>Click here and see more tips of coffees</p>
       <a href="coffees.html" class="btn btn3">More coffees</a>
     </div>
   </section>
 
-  <section class="shops">
+  <section class="shops cafes container animate__animated animate__fadeIn animate__delay-1s">
     <div class="container">
       <h2 class="sub">Coffee shop's</h2>
       <ul>
@@ -83,7 +117,7 @@
           <div class="background store_1">
 
             <div>
-              <img src="/img/coffeeshop-icon.png" alt="">
+              <img src="/img/coffeeshop-icon.png" alt="Coffeeshop icon">
             </div>
 
             <div class="shop_container">
@@ -98,7 +132,7 @@
           <div class="background store_2">
 
             <div>
-              <img src="/img/coffeeshop-icon.png" alt="">
+              <img src="/img/coffeeshop-icon.png" alt="Coffeeshop icon">
             </div>
 
             <div class="shop_container">
@@ -113,7 +147,7 @@
           <div class="background store_3">
 
             <div>
-              <img src="/img/coffeeshop-icon.png" alt="">
+              <img src="/img/coffeeshop-icon.png" alt="Coffeeshop icon">
             </div>
 
             <div class="shop_container">
@@ -132,7 +166,7 @@
     </div>
   </section>
 
-  <section class="company container">
+  <section class="company container cafes container animate__animated animate__fadeIn animate__delay-1s">
     <h2 class="sub">The company</h2>
     <img src="/img/logo.svg" alt="Logo">
     <ul class="company_list">
@@ -140,7 +174,7 @@
         <h3>Open communication</h3>
       </li>
       <li class="grid-1-3">
-        <h3>Embracing new ideas</h3>
+        <h3>Great coffees</h3>
       </li>
       <li class="grid-1-3">
         <h3>Innovative</h3>
@@ -152,14 +186,14 @@
     </div>
   </section>
 
-  <section class="break">
+  <div class="break cafes container animate__animated animate__fadeIn animate__delay-1s">
     <blockquote class="quote container">
       <p>"Coffee is one of the Easter Eggs on the programming world"</p>
     </blockquote>
-  </section>
+  </div>
 
   <footer>
-    <div class="footer">
+    <div class="footer cafes container animate__animated animate__fadeIn animate__delay-1s">
       <div class="container">
 
         <div class="grid-8 footer_about">
@@ -180,9 +214,9 @@
         <div class="grid-4 footer_social">
           <h3>Social</h3>
           <ul>
-            <li><a href="#" target="_blank"><img src="./img/facebook.svg" alt="Coffeelog Facebook account"></a></li>
-            <li><a href="#" target="_blank"><img src="./img/twitter.svg" alt="Coffeelog Twitter account"></a></li>
-            <li><a href="#" target="_blank"><img src="./img/instagram.svg" alt="Coffeelog Instagram account"></a></li>
+            <li><a href="#" target="_blank"><img src="./img/facebook.svg" alt="Facebook icon"></a></li>
+            <li><a href="#" target="_blank"><img src="./img/twitter.svg" alt="Twitter icon"></a></li>
+            <li><a href="#" target="_blank"><img src="./img/instagram.svg" alt="instagram icon"></a></li>
           </ul>
         </div>
       </div>
@@ -191,9 +225,9 @@
     <div class="copy">
       <div class="container">
         <p class="grid-16">Coffeelog® 2020 - All rights reserved.</p>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </div>
     </div>
   </footer>
 </body>
-
 </html>

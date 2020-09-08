@@ -70,7 +70,7 @@
     padding: 10px 15px;
 }
 
-.data_contact ul li:nth-child(odd) {
+.data_contact .data_media {
     background-color: #924b4b;
     border: 4px solid #924b4b;
     border-radius: 5px;
@@ -88,10 +88,6 @@
     align-items: center;
     border: 3px solid #f0b27f;
     border-radius: 5px;
-}
-
-.data_contact ul li a:hover {
-    border: 3px solid #000;
 }
 
 /* Map */

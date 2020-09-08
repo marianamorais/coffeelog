@@ -1,196 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffeelog - Coffee's</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/coffees.css" />
-    <link rel="stylesheet" href="css/responsive.css">
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffeelog - Coffee's</title>
+  <meta name="description" content="Coffee's!">
 
-  <body>
-    <header class="header">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Coffeelog - Coffee and code!" />
+  <meta property="og:description" content="Buy coffee and get free programming courses!" />
+  <meta property="og:url" content="https://coffeelog.netlify.app/coffees.html" />
+  <meta property="og:image" content="./img/img-intro.jpg" />
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#924b4b">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/manifest.json">
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/coffees.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo grid-4"><img src="/img/logo.svg" alt="Coffeelog" />Coffeelog</a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="coffees.html" class="menu_active">More coffees</a></li>
+          <li><a href="coffeeshops.html">Coffee shop's</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="intro_about intern_coffees">
+    <div class="container animate__animated animate__fadeInDown">
+      <h1>Coffee's</h1>
+      <p>See more coffee's</p>
+    </div>
+  </section>
+
+  <section class="container coffees_item animate__animated animate__fadeIn animate__delay-1s">
+    <div class="grid-11 coffee coffee1">
+      <h2>Black coffee</h2>
+    </div>
+    <div class="grid-5 blackcoffee_icon">
+      <img src="./img/coffee-cup.png" alt="Coffee cup" />
+    </div>
+    <div class="grid-8-1 coffee coffee2"></div>
+    <div class="grid-8-1 coffee2_text">
+      <p>
+        The black coffee still essential in many people's lives, and many of
+        them work with programming. Helps maintain concentration and relieves
+        tiredness.
+      </p>
+      <ul>
+        <li>Coffee bean robusta</li>
+        <li>Good taste</li>
+        <li>Coffee quality</li>
+        <li>Proper packaging</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container coffees_item animate__animated animate__fadeIn animate__delay-1s">
+    <div class="grid-11 coffee coffee3">
+      <h2>Coffee Latte</h2>
+    </div>
+    <div class="grid-5 blackcoffee_icon">
+      <img src="./img/latte-icon.png" alt="Coffee latte" />
+    </div>
+    <div class="grid-8-1 coffee coffee4"></div>
+    <div class="grid-8-1 coffee2_text">
+      <p>
+        In northern Europe and Scandinavia, the term café au lait has traditionally been used for the combination of
+        espresso and milk.
+      </p>
+      <ul>
+        <li>Café latte</li>
+        <li>Grand crème</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container coffees_item animate__animated animate__fadeIn animate__delay-1s">
+    <div class="grid-11 coffee coffee5">
+      <h2>Frappucino</h2>
+    </div>
+    <div class="grid-5 blackcoffee_icon">
+      <img src="./img/frappe-icon.png" alt="Coffee frappe" />
+    </div>
+    <div class="grid-8-1 coffee coffee6"></div>
+    <div class="grid-8-1 coffee2_text">
+      <p>
+        Made famous by Starbucks, the Frappuccino is a blended iced coffee drink that’s topped with whipped cream and
+        syrup.
+      </p>
+      <ul>
+        <li>Iced coffee</li>
+        <li>Blended ice</li>
+        <li>Expresso</li>
+        <li>Whip</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="feedback animate__animated animate__fadeIn animate__delay-1s">
+    <div class="container">
+      <h2 class="sub">Feedback</h2>
+      <form action="./php/send-sendgrid.php" method="POST" id="form_feedback" class="form grid-8 formphp">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone *</label>
+        <input type="phone" id="phone" name="phone" required>
+
+        <label class="antispan">If you are not a robot, let it empty.</label>
+        <input type="text" class="antispan" name="leaveblank"></input>
+
+        <label class="antispan">If you are not a robot, don't change it.</label>
+        <input type="text" class="antispan" name="dontchange" value="https://"></input>
+
+        <label for="message">Message *</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <button id="send" send="send" type="submit">Submit</button>
+      </form>
+      <div class="some_feedbacks grid-8">
+        <h3>Some feedback's</h3>
+        <ul>
+          <li>- About the coffees</li>
+          <li>- About delivery way</li>
+          <li>- About the app</li>
+          <li>- About adding other type of drink</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="break animate__animated animate__fadeIn animate__delay-1s">
+    <blockquote class="quote container">
+      <p>"Coffee is one of the Easter Eggs on the programming world"</p>
+    </blockquote>
+  </div>
+
+  <footer>
+    <div class="footer animate__animated animate__fadeIn animate__delay-1s">
       <div class="container">
-        <a href="index.html" class="logo grid-4"
-          ><img src="/img/logo.svg" alt="Logo Coffeelog" />Coffeelog</a
-        >
-        <nav class="grid-12 header_menu">
+        <div class="grid-8 footer_about">
+          <h3>Our history</h3>
+          <p>
+            Started with a group of programmer friends who were just studying
+            when an idea came up to create something real.
+          </p>
+        </div>
+
+        <div class="grid-4 footer_contact">
+          <h3>Contact</h3>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="coffees.html" class="menu_active">More coffees</a></li>
-            <li><a href="coffeeshops.html">Coffee shop's</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>- 11 90000-0000</li>
+            <li>- contact@coffeelog.com</li>
+            <li>- Sao Paulo - SP</li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
 
-    <section class="intro_about intern_coffees">
-      <div class="container">
-        <h1>Coffee's</h1>
-        <p>See more coffee's</p>
-      </div>
-    </section>
-
-    <section class="container coffees_item">
-      <div class="grid-11 coffee coffee1">
-        <h2>Black coffee</h2>
-      </div>
-      <div class="grid-5 blackcoffee_icon">
-        <img src="./img/coffee-cup.png" alt="Coffee cup" />
-      </div>
-      <div class="grid-8-1 coffee coffee2"></div>
-      <div class="grid-8-1 coffee2_text">
-        <p>
-          The black coffee still essential in many people's lives, and many of
-          them work with programming. Helps maintain concentration and relieves
-          tiredness.
-        </p>
-        <ul>
-          <li>Coffee bean robusta</li>
-          <li>Good taste</li>
-          <li>Coffee quality</li>
-          <li>Proper packaging</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container coffees_item">
-      <div class="grid-11 coffee coffee3">
-        <h2>Coffee Latte</h2>
-      </div>
-      <div class="grid-5 blackcoffee_icon">
-        <img src="./img/latte-icon.png" alt="Coffee cup" />
-      </div>
-      <div class="grid-8-1 coffee coffee4"></div>
-      <div class="grid-8-1 coffee2_text">
-        <p>
-          In northern Europe and Scandinavia, the term café au lait has traditionally been used for the combination of espresso and milk. 
-        </p>
-        <ul>
-          <li>Café latte</li>
-          <li>Grand crème</li>
-          <li>Coffee</li>
-          <li>Milk</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container coffees_item">
-      <div class="grid-11 coffee coffee5">
-        <h2>Frappucino</h2>
-      </div>
-      <div class="grid-5 blackcoffee_icon">
-        <img src="./img/frappe-icon.png" alt="Coffee cup" />
-      </div>
-      <div class="grid-8-1 coffee coffee6"></div>
-      <div class="grid-8-1 coffee2_text">
-        <p>
-          Made famous by Starbucks, the Frappuccino is a blended iced coffee drink that’s topped with whipped cream and syrup.
-        </p>
-        <ul>
-          <li>Iced coffee</li>
-          <li>Blended ice</li>
-          <li>Expresso</li>
-          <li>Whip</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="feedback">
-      <div class="container">
-        <h2 class="sub">Feedback</h2>
-        <form action="" id="form_feedback" class="form grid-8">
-          <label for="name">Name</label>
-          <input type="text" id="name">
-          <label for="email">E-mail</label>
-          <input type="email" id="email">
-          <label for="phone">Phone</label>
-          <input type="phone" id="phone">
-          <label for="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-        <div class="some_feedbacks grid-8">
-          <h3>Some feedback's</h3>
+        <div class="grid-4 footer_social">
+          <h3>Social</h3>
           <ul>
-            <li>- About the coffees</li>
-            <li>- About delivery way</li>
-            <li>- About the app</li>
-            <li>- About adding other type of drink</li>
+            <li>
+              <a href="#" target="_blank"><img src="./img/facebook.svg" alt="Facebook icon" /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="./img/twitter.svg" alt="Twitter icon" /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="./img/instagram.svg" alt="Instagram icon" /></a>
+            </li>
           </ul>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="break">
-      <blockquote class="quote container">
-        <p>"Coffee is one of the Easter Eggs on the programming world"</p>
-      </blockquote>
-    </section>
-
-    <footer>
-      <div class="footer">
-        <div class="container">
-          <div class="grid-8 footer_about">
-            <h3>Our history</h3>
-            <p>
-              Started with a group of programmer friends who were just studying
-              when an idea came up to create something real.
-            </p>
-          </div>
-
-          <div class="grid-4 footer_contact">
-            <h3>Contact</h3>
-            <ul>
-              <li>- 11 90000-0000</li>
-              <li>- contact@coffeelog.com</li>
-              <li>- Sao Paulo - SP</li>
-            </ul>
-          </div>
-
-          <div class="grid-4 footer_social">
-            <h3>Social</h3>
-            <ul>
-              <li>
-                <a href="#" target="_blank"
-                  ><img
-                    src="./img/facebook.svg"
-                    alt="Coffeelog Facebook account"
-                /></a>
-              </li>
-              <li>
-                <a href="#" target="_blank"
-                  ><img src="./img/twitter.svg" alt="Coffeelog Twitter account"
-                /></a>
-              </li>
-              <li>
-                <a href="#" target="_blank"
-                  ><img
-                    src="./img/instagram.svg"
-                    alt="Coffeelog Instagram account"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div class="copy animate__animated animate__fadeIn animate__delay-1s">
+      <div class="container">
+        <p class="grid-16">Coffeelog® 2020 - All rights reserved.</p>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </div>
+    </div>
+  </footer>
 
-      <div class="copy">
-        <div class="container">
-          <p class="grid-16">Coffeelog® 2020 - All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
-  </body>
+  <scrip src="./scripts/simple-form.js">
+    </script>
+</body>
+
 </html>
